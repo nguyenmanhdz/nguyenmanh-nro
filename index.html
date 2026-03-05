@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyễn Mạnh - Trùm Nhiệm Vụ Ngọc Rồng Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Nguyễn Mạnh - Trùm Nhiệm Vụ Ngọc Rồng Online</h1>
+    </header>
+
+    <div class="contact-bar">
+        <div class="contact-item">🌐 facebook.com/manhsex</div>
+        <div class="contact-item" onclick="openModal()" style="cursor: pointer; ">
+            💬 Zalo: 0383179742
+        </div>
+    </div>
+
+    <div class="search-container">
+        <input type="text" id="search-input" placeholder="Tìm kiếm dịch vụ (ví dụ: Fide, Săn đệ, Proxy...)"
+            onkeyup="searchService()">
+        <button onclick="searchService()">Tìm kiếm</button>
+    </div>
+
+    <main class="container">
+        <section id="prices-section" style="margin-top: 40px;">
+            <div class="grid" id="prices-grid"></div>
+        </section>
+    </main>
+
+    <div id="qr-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <img src="z7591205051347_59e947fa864cdd8edcd717b341d1dffd.jpg" alt="Zalo QR">
+            <p>Quét QR để ib Zalo mình thuê dịch vụ nha!</p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
