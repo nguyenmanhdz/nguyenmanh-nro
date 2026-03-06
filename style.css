@@ -134,14 +134,14 @@ header h1 {
     width: 40px;
     height: 3px;
     background: var(--blue-main);
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 /* Bảng giá */
 table {
     width: 100%;
     border-collapse: collapse;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 thead {

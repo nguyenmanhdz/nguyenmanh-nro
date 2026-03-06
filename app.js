@@ -128,7 +128,7 @@ const pricesData = [
       ["Treo buff đậu 7 ngày","15.000", ""],
       ["Treo buff đậu 30 ngày","30.000", ""],
       ["Up thức ăn x5 x99","30.000", ""],
-      ["Treo Giáp Luyện Tập 1000 phút","3.000'", ""],
+      ["Treo Giáp Luyện Tập 1000 phút","3.000", ""],
     ],
   },
   {
